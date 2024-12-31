@@ -1,0 +1,15 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  .home-title {
+    font-size: 2em;
+    color: #4a4a4a;
+  }
+  .items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  

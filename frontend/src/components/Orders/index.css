@@ -1,0 +1,134 @@
+/* Container styles */
+.orders-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Title */
+  .orders-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4A90E2;
+    margin-bottom: 30px;
+  }
+  
+  /* No orders message */
+  .no-orders {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  /* Loading state */
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 20px;
+  }
+  
+  /* Error message */
+  .error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+    padding: 20px;
+  }
+  
+  /* Card for each order */
+  .order-card {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Order header */
+  .order-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .order-header h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-date {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Order details */
+  .order-details p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .items-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Items list */
+  .order-items-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  .order-item-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .order-item-name {
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  
+  .order-item-quantity,
+  .order-item-price {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Payment info */
+  .payment-info {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  

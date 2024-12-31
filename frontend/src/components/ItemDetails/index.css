@@ -1,0 +1,85 @@
+.item-details-container {
+    display: flex;
+  }
+  
+  .side-scroll {
+    width: 20%;
+    max-height: 80vh;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+  }
+  
+  .side-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .highlighted {
+    border: 2px solid blue;
+  }
+  
+  .side-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .item-details {
+    width: 60%;
+    padding: 20px;
+  }
+  
+  .try-on-container {
+    width: 40%;
+  }
+  /* Buy Now Button Styling */
+  .buy-now-button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 16px 40px;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    outline: none;
+    height:70px;
+    width:155px;
+  }
+  
+  /* Hover Effect */
+  .buy-now-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+  }
+  
+  /* Active (Click) Effect */
+  .buy-now-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+  }
+  
+  /* Focused (Accessibility) State */
+  .buy-now-button:focus {
+    outline: none;
+    border: 2px solid #ff6a8b;
+    box-shadow: 0 0 0 2px rgba(255, 106, 139, 0.6);
+  }
+  .btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: start;
+    margin-right:100px;
+    
+  }

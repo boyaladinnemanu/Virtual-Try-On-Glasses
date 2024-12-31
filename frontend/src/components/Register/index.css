@@ -1,0 +1,96 @@
+
+  /* General Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light Cyan for Background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Register Form Container */
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0288d1, #03a9f4); /* Bright Blue Gradient */
+  }
+  
+  /* Form Styles */
+  .register-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  .register-form h3 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #263238; /* Darker Grayish Blue for Text */
+    font-weight: 600;
+  }
+  
+  /* Input Fields */
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    width: 90%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #b0bec5; /* Light Blue Border */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f1f8e9; /* Very Light Greenish Background */
+    transition: all 0.3s ease;
+  }
+  
+  .register-form input[type="text"]:focus,
+  .register-form input[type="email"]:focus,
+  .register-form input[type="password"]:focus {
+    border: 1px solid #0288d1; /* Bright Blue Border on Focus */
+    background-color: #ffffff; /* White on Focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(2, 136, 209, 0.5); /* Soft Bright Blue Shadow */
+  }
+  
+  /* Submit Button */
+  .register-form input[type="submit"] {
+    width: 100%;
+    padding: 12px 15px;
+    background: #0288d1; /* Bright Blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .register-form input[type="submit"]:hover {
+    background: #0277bd; /* Slightly Darker Blue on Hover */
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .register-form {
+        padding: 30px 20px;
+    }
+  }
+  
